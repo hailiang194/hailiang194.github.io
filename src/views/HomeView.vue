@@ -28,7 +28,7 @@ export default {
         "Lương Thế Hải",
         "Hai(Kai) Luong",
         "梁世海",
-        "リョン・テー・ハイ「うみくん」"
+        "ルオン・テー・ハイ「うみくん」"
       ],
       lang: 0
     }

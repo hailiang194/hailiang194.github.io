@@ -9,7 +9,7 @@
         <b-navbar-item href="/resume">
           Resume
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item href="/portfolio">
           Portfolio
         </b-navbar-item>
         <b-navbar-item href="#">
