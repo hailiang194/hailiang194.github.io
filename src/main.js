@@ -5,6 +5,7 @@ import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import 'bulma-extensions/bulma-timeline/dist/css/bulma-timeline.min.css'
 import router from './router'
+import { inject } from '@vercel/analytics'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
@@ -24,3 +25,5 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+
+inject()
