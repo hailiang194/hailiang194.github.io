@@ -12,9 +12,6 @@
         <b-navbar-item href="/portfolio">
           Portfolio
         </b-navbar-item>
-        <b-navbar-item href="https://hailiangblog.com">
-          Blog
-        </b-navbar-item>
         <b-navbar-item href="/contact">
           Contact
         </b-navbar-item>

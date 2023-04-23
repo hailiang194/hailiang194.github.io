@@ -10,11 +10,6 @@ export default [
         link: "mailto:hailuongthe2000@gmail.com"
     },
     {
-        icon: "fa-brands fa-wordpress",
-        tooltip: "Blog",
-        link: "http://hailiangblog.com"
-    },
-    {
         icon: "fa-brands fa-linkedin",
         tooltip: "LinkedIn",
         link: "https://www.linkedin.com/in/luong-the-hai-sl"

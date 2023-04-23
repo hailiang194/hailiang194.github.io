@@ -52,67 +52,35 @@
       <p class="title has-text-light">Working experiences</p>
       <div>
         <div class="timeline is-centered">
-          <header class="timeline-header">
-            <span class="tag is-primary">2020</span>
-          </header>
-
-          <div class="timeline-item">
-            <div class="timeline-marker is-icon">
-              <font-awesome-icon icon="fas fa-brain" />
-            </div>
-            <div class="timeline-content">
-              <p class="heading has-text-light">December 2020 - August 2021</p>
-              <!-- <p>A.N LAB</p> -->
-              <b-collapse :open="false" aria-id="contentIdForA11y1">
-                <template #trigger="props">
-                  <b-button label="A.N LAB" type="is-dark" aria-controls="contentIdForA11y1"
-                    :aria-expanded="props.open" />
-                </template>
-                <div class="notification">
-                  <div class="content">
-                    <h3>
-                      Intern
-                    </h3>
-                    <p>
-                      Trained about OpenCV, Tensorflow, PyTorch to solve some problems like Resize and rotate images,
-                      Frame marker detector, Credit card OCR, etc
-                    </p>
+          <template v-for="(year, yearIndex) in Object.keys(work).sort().reverse()">
+            <header class="timeline-header" :key="yearIndex">
+              <span class="tag is-primary">{{ year }}</span>
+            </header>
+            <div class="timeline-item" v-for="(job, jobIndex) in work[year]" :key="jobIndex">
+              <div class="timeline-marker is-icon">
+                <font-awesome-icon :icon="job.icon" />
+              </div>
+              <div class="timeline-content">
+                <p class="heading has-text-light">{{ job.time.start }} - {{ job.time.end }}</p>
+                <b-collapse :open="false" aria-id="contentIdForA11y1">
+                  <template #trigger="props">
+                    <b-button :label="job.company" type="is-dark" aria-controls="contentIdForA11y1"
+                      :aria-expanded="props.open" />
+                  </template>
+                  <div class="notification">
+                    <div class="content">
+                      <h3>
+                        {{ job.title }}
+                      </h3>
+                      <p v-for="(res, resIndex) in job.works" :key="resIndex">
+                        {{ res }}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </b-collapse>
+                </b-collapse>
+              </div>
             </div>
-          </div>
-          <header class="timeline-header">
-            <span class="tag is-primary">2022</span>
-          </header>
-          <div class="timeline-item">
-            <div class="timeline-marker is-icon">
-              <font-awesome-icon icon="fas fa-gamepad" />
-            </div>
-            <div class="timeline-content">
-              <p class="heading has-text-light">February 2022 - Now</p>
-              <b-collapse :open="false" aria-id="contentIdForA11y1">
-                <template #trigger="props">
-                  <b-button label="Glis Games" type="is-dark" aria-controls="contentIdForA11y1"
-                    :aria-expanded="props.open" />
-                </template>
-                <div class="notification">
-                  <div class="content has-text-left">
-                    <h3>
-                      Developer
-                    </h3>
-                    <ul>
-                      <li>Trained to use OpenGL, Emscripten</li>
-                      <li>Maintaining vbEngine - Glis Games' in-house game engine</li>
-                      <li>Creating and maintaining the company's games</li>
-                      <li>Being a front-end developer for webgames</li>
-                      <li>Writing some modules to communicate between embeded device to game</li>
-                    </ul>
-                  </div>
-                </div>
-              </b-collapse>
-            </div>
-          </div>
+          </template>
         </div>
       </div>
     </section>
@@ -121,9 +89,10 @@
       <h1 class="title has-text-light">Education</h1>
       <div class="has-text-centered">
         <p class="is-size-4 has-text-light">FPT University</p>
-        <p class="is-size-5 has-text-light">2018 - 2022</p>
+        <p class="is-size-5 has-text-light">2018 - 2023</p>
+        <p class="is-size-5 has-text-light">GPA: 7.06</p>
         <p class="is-size-5 has-text-light">Major: Software Engineering</p>
-        
+
       </div>
     </section>
 
@@ -131,8 +100,13 @@
       <h1 class="title has-text-light">Spoken languages</h1>
       <div class="columns is-multiline">
         <div class="column is-half" v-for="language, index in languages" :key="index">
-          <p class="is-size-4 has-text-light">{{language.lang}}</p>
-          <b-slider size="is-large" v-model="language.level" :disabled="true" :min="0" :max="10" :step="0.1"></b-slider>
+          <b-tooltip :label="language.level + '/' + language.max + ' - ' + language.description">
+          <p class="is-size-4 has-text-light">{{ language.lang }}</p>
+          <div>
+              <font-awesome-icon icon="fas fa-star" style="color: #fff" v-for="l in language.level" :key="l"/>
+              <font-awesome-icon icon="fa-regular fa-star" style="color: #fff" v-for="nl in (language.max - language.level)" :key="nl" />
+          </div>
+        </b-tooltip>
         </div>
       </div>
     </section>
@@ -143,6 +117,7 @@ import contacts from '@/data/contacts'
 import { Icon } from '@iconify/vue2';
 import technologies from '@/data/technologies'
 import languages from '@/data/languages'
+import work from '@/data/work';
 
 
 export default {
@@ -150,7 +125,8 @@ export default {
     return {
       contacts: contacts,
       technologies: technologies,
-      languages: languages
+      languages: languages,
+      work: work
     }
   },
   components: {

@@ -1,18 +1,26 @@
 export default [
     {
         lang: "Tiếng Việt",
-        level: 10.0
+        level: 6,
+        max: 6,
+        description: "Native speaker"
     },
     {
         lang: "English",
-        level: 6.7
+        level: 6,
+        max: 9,
+        description: "Intermediate level"
     },
     {
         lang: "日本語",
-        level: 2.0
+        level: 2,
+        max: 5,
+        description: "Basic introduction"
     },
     {
-        lang: "漢語（普通話）",
-        level: 1.7
+        lang: "汉语（普通话）",
+        level: 2,
+        max: 6,
+        description: "Basic introduction"
     }
 ]

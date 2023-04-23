@@ -7,29 +7,28 @@
         <p class="title is-1 has-text-centered is-spaced" v-if="lang == 'cn'">梁世海</p>
         <p class="title is-1 has-text-centered is-spaced" v-if="lang == 'jp'">リョン・テー・ハイ「うみくん」</p> -->
         <div v-for="n, i in langNames" :key="i">
-          <p class="title is-1 has-text-centered is-spaced" v-if="lang === i">{{ n }}</p>
+          <template v-if="lang === i">
+            <p class="title is-1 has-text-centered is-spaced">{{ n.name }}</p>
+            <p class="subtitle has-text-centered">
+              {{ n.title }}
+            </p>
+          </template>
         </div>
-        <p class="subtitle has-text-centered">
-          Full-stack, Game Developer
-        </p>
-        
+
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-
+import names
+ from '@/data/names';
 export default {
   name: 'HomeView',
   data() {
     return {
-      langNames: [
-        "Lương Thế Hải",
-        "Hai(Kai) Luong",
-        "梁世海",
-        "ルオン・テー・ハイ「うみくん」"
-      ],
+      langNames: names,
       lang: 0
     }
   },
@@ -38,11 +37,10 @@ export default {
       var self = this;
       setInterval(() => {
         ++self.lang;
-        if(self.lang == self.langNames.length)
-        {
+        if (self.lang == self.langNames.length) {
           self.lang = 0
         }
-      }, 1000);
+      }, 2000);
     }
   },
   mounted() {
