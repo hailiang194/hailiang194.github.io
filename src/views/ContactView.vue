@@ -3,9 +3,9 @@
         <section class="hero is-dark is-fullheight-with-navbar">
             <div class="hero-body">
                 <div class="main-container">
-                    <p class="title is-1 has-text-centered is-spaced">Contact</p>
+                    <p class="title is-1 has-text-centered is-spaced">{{ $t("contact.title") }}</p>
                     <p class="subtitle has-text-centered">
-                        You can contact me at
+                        {{ $t('contact.message') }}
                     </p>
                     <div class="is-flex is-justify-content-center">
                         <b-tooltip class="mx-2" v-for="contact, index in contacts" :key="index"

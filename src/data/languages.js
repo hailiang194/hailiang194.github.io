@@ -3,24 +3,24 @@ export default [
         lang: "Tiếng Việt",
         level: 6,
         max: 6,
-        description: "Native speaker"
+        description: "vi_desc"
     },
     {
         lang: "English",
         level: 6,
         max: 9,
-        description: "Intermediate level"
+        description: "en_desc"
     },
     {
         lang: "日本語",
         level: 2,
         max: 5,
-        description: "Basic introduction"
+        description: "ja_desc"
     },
     {
         lang: "汉语（普通话）",
         level: 2,
         max: 6,
-        description: "Basic introduction"
+        description: "zh_desc"
     }
 ]

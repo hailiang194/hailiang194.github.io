@@ -1,0 +1,42 @@
+{
+    "name": "English",
+    "nav": {
+        "home": "Home",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "resume": {
+        "name": "Hai Luong(Kai)",
+        "title": "Full-stack, Game Developer",
+        "address": "Vietnam, Hanoi",
+        "used_tech": "Technologies used",
+        "work_exp": "Working experiences",
+        "present": "Present",
+        "edu": "Education",
+        "dev_title": "Developer",
+        "intern_title": "Intern",
+        "university": "FPT University",
+        "major": "Major: Software Engineering",
+        "spoken_lang": "Spoken languages",
+        "vi_desc": "Native speaker",
+        "en_desc": "Intermediate level",
+        "ja_desc": "Basic introduction",
+        "zh_desc": "Basic introduction",
+        "glis_game_des_1": "Trained to use OpenGL, Emscripten",
+        "glis_game_des_2": "Maintaining vbEngine - Glis Games' in-house game engine",
+        "glis_game_des_3": "Creating and maintaining the company's games",
+        "glis_game_des_4": "Being a front-end developer for webgames",
+        "glis_game_des_5": "Writing some modules to communicate between embeded device to game",
+        "an_lab_des_1": "Trained about OpenCV, Tensorflow, PyTorch to solve some problems like Resize and rotate images, Frame marker detector, Credit card OCR, etc"
+    },
+    "portfolio": {
+        "have_done": "What I have done",
+        "view_source": "View source code",
+        "view_github": "View Github page"
+    },
+    "contact": {
+        "title": "Contact",
+        "message": "You can contact me at"
+    }
+}

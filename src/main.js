@@ -14,15 +14,19 @@ import {faWordpress, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-ic
 import { faStar as fasStar } from '@fortawesome/free-regular-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import i18n from '@/i18n'
 
 library.add(faPhone, faEnvelope, faCakeCandles, faLocationDot, faDragon, faBrain, faGamepad, faStar, faWordpress, faLinkedin, faGithub, fasStar)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
+
+
 Vue.use(Buefy)
 new Vue({
   router,
+  i18n,
   render: h => h(App)
 }).$mount('#app')
 

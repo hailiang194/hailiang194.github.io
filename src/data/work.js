@@ -2,32 +2,32 @@ export default {
     "2022": [
         {
             "company": "Glis Games",
-            "title": "Developer",
+            "title": "dev_title",
             "icon": "fas fa-gamepad",
             "time": {
-                "start": "February 2022",
-                "end": "Present"
+                "start": new Date("2022-02-01"),
+                "end": new Date()
             },
             "works": [
-                "Trained to use OpenGL, Emscripten",
-                "Maintaining vbEngine - Glis Games' in-house game engine",
-                "Creating and maintaining the company's games",
-                "Being a front-end developer for webgames",
-                "Writing some modules to communicate between embeded device to game"
+                "glis_game_des_1",
+                "glis_game_des_2",
+                "glis_game_des_3",
+                "glis_game_des_4",
+                "glis_game_des_5"
             ]
         }
     ],
     "2020": [
         {
             "company": "A.N LAB",
-            "title": "Intern",
+            "title": "intern_title",
             "icon": "fas fa-brain",
             "time": {
-                "start": "December 2020",
-                "end": "August 2021"
+                "start": new Date("2020-12-01"),
+                "end": new Date("2021-08-01")
             },
             "works": [
-                "Trained about OpenCV, Tensorflow, PyTorch to solve some problems like Resize and rotate images, Frame marker detector, Credit card OCR, etc"
+                "an_lab_des_1"
             ]
         }
     ]

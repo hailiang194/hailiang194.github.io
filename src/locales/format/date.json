@@ -1,0 +1,14 @@
+{
+    "en": {
+      "exp": {
+        "year": "numeric",
+        "month": "long"
+      }
+    },
+    "vi": {
+      "exp": {
+        "year": "numeric",
+        "month": "long"
+      }
+    }
+  }

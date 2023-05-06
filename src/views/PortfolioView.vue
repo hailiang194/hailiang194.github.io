@@ -6,7 +6,7 @@
                     Portfolio
                 </p>
                 <p class="subtitle has-text-centered">
-                    What I have done
+                    {{ $t("portfolio.have_done") }}
                 </p>
             </div>
         </section>
@@ -53,7 +53,7 @@
 
                         </div>
                         <footer class="card-footer">
-                            <a :href="repo.html_url" target="_blank" class="card-footer-item">View source code</a>
+                            <a :href="repo.html_url" target="_blank" class="card-footer-item">{{ $t("portfolio.view_source") }}</a>
 
                         </footer>
                     </div>
@@ -62,8 +62,8 @@
 
         </section>
         <div class="is-flex is-justify-content-center has-background-grey-dark">
-            <b-button class="my-3" tag="a" href="#" target="_blank" type="is-info">
-                View Github page
+            <b-button class="my-3" tag="a" href="https://github.com/hailiang194" target="_blank" type="is-info">
+                {{ $t("portfolio.view_github") }}
             </b-button>
         </div>
     </div>

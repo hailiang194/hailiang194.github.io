@@ -1,0 +1,42 @@
+{
+    "name": "Tiếng Việt",
+    "nav": {
+        "home": "Trang chủ",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "contact": "Liên hệ"
+    },
+    "resume": {
+        "name": "Lương Thế Hải",
+        "title": "Full-stack, Game Developer",
+        "address": "Hà Nội, Việt Nam",
+        "used_tech": "Công nghệ đã sử dụng",
+        "work_exp": "Kinh nghiệm làm việc",
+        "present": "Hiện tại",
+        "edu": "Học vấn",
+        "dev_title": "Developer",
+        "intern_title": "Intern",
+        "university": "Đại học FPT",
+        "major": "Chuyên ngành: Kỹ thuật phần mềm",
+        "spoken_lang": "Trình độ ngoại ngữ",
+        "vi_desc": "Ngôn ngữ bản xứ",
+        "en_desc": "Trình độ trung cấp",
+        "ja_desc": "Giao tiếp cơ bản",
+        "zh_desc": "Giao tiếp cơ bản",
+        "glis_game_des_1": "Được đào tạo về việc sử dụng OpenGL, Emscripten",
+        "glis_game_des_2": "Bảo trì vbEngine - Glis Games' game engine của công ty",
+        "glis_game_des_3": "Tạo và bảo trì game của công ty",
+        "glis_game_des_4": "Tham gia vào vị trị front-end",
+        "glis_game_des_5": "Viết các module giao tiếp giữa game và các thiết bị nhúng",
+        "an_lab_des_1": "Được đào tạo về OpenCV, Tensorflow, PyTorch để giải quyết các vấn đề như Thay đổi kích thước và xoay ảnh, Frame marker detector, Credit card OCR,..."
+    },
+    "portfolio": {
+        "have_done": "Những dự án đã làm",
+        "view_source": "Xem mã nguồn",
+        "view_github": "Xem trang Github"
+    },
+    "contact": {
+        "title": "Liên hệ",
+        "message": "Liên hệ với mình tại"
+    }
+}
