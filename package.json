@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -17,7 +18,6 @@
     "axios": "^0.27.2",
     "buefy": "^0.9.21",
     "bulma-extensions": "^6.2.7",
-    "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1"
   },
@@ -27,26 +27,22 @@
     "@iconify/icons-logos": "^1.2.15",
     "@iconify/icons-vscode-icons": "^1.2.12",
     "@iconify/vue2": "^1.2.1",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "@vitejs/plugin-vue": "^1.6.1",
+    "eslint": "^8.40.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "vite": "^2.5.4",
+    "vite-plugin-vue2": "1.9.0"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "es2022": true
     },
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
     "rules": {}
   },
   "browserslist": [
