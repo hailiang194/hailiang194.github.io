@@ -30,7 +30,12 @@
                 </b-tooltip>
               </div>
 
-
+              <div>
+                <!-- <a href="./../assets/CV_Software-Engineering_Luong-The-Hai.pdf">Download CV(English)</a> -->
+                <b-button class="my-3" tag="a" href="/CV_Software-Engineering_Luong-The-Hai.pdf" target="_blank" type="is-info">
+                  Download CV(English)
+                </b-button>
+              </div>
             </div>
           </div>
         </div>
@@ -62,7 +67,7 @@
               </div>
               <div class="timeline-content">
                 <p class="heading has-text-light">{{ $d(job.time.start, 'exp') }} - {{ (new Date()).getTime() -
-                  job.time.end.getTime() < 86400000 ? $t("resume.present") : $d(job.time.start, 'exp') }}</p>
+                  job.time.end.getTime() < 86400000 ? $t("resume.present") : $d(job.time.end, 'exp') }}</p>
                     <b-collapse :open="false" aria-id="contentIdForA11y1">
                       <template #trigger="props">
                         <b-button :label="job.company" type="is-dark" aria-controls="contentIdForA11y1"

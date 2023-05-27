@@ -1,8 +1,8 @@
 export default [
     {
-        icon: "phone",
-        tooltip: "Phone",
-        link: "tel:+84396159852"
+        icon: "fa-brands fa-skype",
+        tooltip: "Skype",
+        link: "skype:live:.cid.e14b81e032f041ba?chat"
     },
     {
         icon: "envelope",

@@ -14,6 +14,8 @@ import openglIcon from '@iconify/icons-logos/opengl';
 import opencvIcon from '@iconify/icons-logos/opencv';
 import webassemblyIcon from '@iconify/icons-logos/webassembly';
 import linuxTux from '@iconify/icons-logos/linux-tux';
+import dockerIcon from '@iconify/icons-devicon/docker';
+import azureIcon from '@iconify/icons-devicon/azure';
 
 export default [
     {
@@ -79,5 +81,13 @@ export default [
     {
         name: "Linux",
         icon: linuxTux
+    },
+    {
+        name: "Docker",
+        icon: dockerIcon
+    },
+    {
+        name: "Azure",
+        icon: azureIcon
     }
 ]

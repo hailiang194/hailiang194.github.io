@@ -25,6 +25,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@iconify/icons-devicon": "^1.2.7",
     "@iconify/icons-logos": "^1.2.15",
     "@iconify/icons-vscode-icons": "^1.2.12",
     "@iconify/vue2": "^1.2.1",
