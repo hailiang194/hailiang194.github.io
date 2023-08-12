@@ -8,12 +8,13 @@
                         {{ $t('contact.message') }}
                     </p>
                     <div class="is-flex is-justify-content-center">
-                        <b-tooltip class="mx-2" v-for="contact, index in contacts" :key="index"
+                        <!-- <b-tooltip class="mx-2" v-for="contact, index in contacts" :key="index"
                             :label="contact.tooltip">
                             <a :href="contact.link">
                                 <font-awesome-icon :icon="contact.icon" />
                             </a>
-                        </b-tooltip>
+                        </b-tooltip> -->
+                        <ContactLists></ContactLists>
                     </div>
                 </div>
             </div>
@@ -21,13 +22,16 @@
     </div>
 </template>
 <script>
-import contacts from '@/data/contacts'
+import ContactLists from '@/components/ContactLists.vue';
+
+// import contacts from '@/data/contacts'
 export default {
     data() {
         return {
-            contacts: contacts
-        }
-    }
+        // contacts: contacts
+        };
+    },
+    components: { ContactLists }
 }
 </script>
 <style>

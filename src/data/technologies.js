@@ -4,6 +4,7 @@ import fileTypePython from '@iconify/icons-vscode-icons/file-type-python';
 import fileTypeHtml from '@iconify/icons-vscode-icons/file-type-html';
 import fileTypeCss from '@iconify/icons-vscode-icons/file-type-css';
 import fileTypeJsOfficial from '@iconify/icons-vscode-icons/file-type-js-official';
+import fileTypeTypescriptOfficial from '@iconify/icons-vscode-icons/file-type-typescript-official';
 import fileTypeArduino from '@iconify/icons-vscode-icons/file-type-arduino';
 import fileTypeCsharp2 from '@iconify/icons-vscode-icons/file-type-csharp2';
 import fileTypeMysql from '@iconify/icons-vscode-icons/file-type-mysql';
@@ -15,7 +16,6 @@ import opencvIcon from '@iconify/icons-logos/opencv';
 import webassemblyIcon from '@iconify/icons-logos/webassembly';
 import linuxTux from '@iconify/icons-logos/linux-tux';
 import dockerIcon from '@iconify/icons-devicon/docker';
-import azureIcon from '@iconify/icons-devicon/azure';
 
 export default [
     {
@@ -63,6 +63,10 @@ export default [
         icon: fileTypeJsOfficial
     },
     {
+        name: "TypeSript",
+        icon: fileTypeTypescriptOfficial
+    },
+    {
         name: "Vue",
         icon: fileTypeVue
     },
@@ -85,9 +89,5 @@ export default [
     {
         name: "Docker",
         icon: dockerIcon
-    },
-    {
-        name: "Azure",
-        icon: azureIcon
     }
 ]

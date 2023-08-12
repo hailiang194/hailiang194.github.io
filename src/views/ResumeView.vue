@@ -22,13 +22,8 @@
               <p class="is-size-6 my-1">
                 <font-awesome-icon icon="fa-solid fa-location-dot" /> {{ $t("resume.address") }}
               </p>
-              <div>
-                <b-tooltip class="mx-2" v-for="(contact, index) in contacts" :key="index" :label="contact.tooltip">
-                  <a :href="contact.link">
-                    <font-awesome-icon :icon="contact.icon" />
-                  </a>
-                </b-tooltip>
-              </div>
+              <ContactListsVue></ContactListsVue>
+              
 
               <div>
                 <!-- <a href="./../assets/CV_Software-Engineering_Luong-The-Hai.pdf">Download CV(English)</a> -->
@@ -120,25 +115,28 @@
   </div>
 </template>
 <script>
-import contacts from '@/data/contacts'
+import ContactListsVue from '@/components/ContactLists.vue';
+// import contacts from '@/data/contacts'
 import { Icon } from '@iconify/vue2';
 import technologies from '@/data/technologies'
 import languages from '@/data/languages'
 import work from '@/data/work';
+import ContactView from './ContactView.vue';
 
 
 export default {
   data() {
     return {
-      contacts: contacts,
+      // contacts: contacts,
       technologies: technologies,
       languages: languages,
       work: work
     }
   },
   components: {
-    Icon
-  }
+    Icon,
+    ContactListsVue
+}
 }
 </script>
 <style>

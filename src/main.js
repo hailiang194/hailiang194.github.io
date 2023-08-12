@@ -10,13 +10,13 @@ import { inject } from '@vercel/analytics'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faEnvelope, faCakeCandles, faLocationDot, faDragon, faBrain, faGamepad, faStar } from '@fortawesome/free-solid-svg-icons'
-import {faSkype, faWordpress, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faSkype, faWordpress, faLinkedin, faGithub, faWeixin} from '@fortawesome/free-brands-svg-icons'
 import { faStar as fasStar } from '@fortawesome/free-regular-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import i18n from '@/i18n'
 
-library.add(faSkype, faEnvelope, faCakeCandles, faLocationDot, faDragon, faBrain, faGamepad, faStar, faWordpress, faLinkedin, faGithub, fasStar)
+library.add(faSkype, faEnvelope, faCakeCandles, faLocationDot, faDragon, faBrain, faGamepad, faStar, faWordpress, faLinkedin, faGithub, faWeixin, fasStar)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
