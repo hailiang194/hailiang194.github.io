@@ -3,6 +3,7 @@ import VueI18n from 'vue-i18n'
 import date from '@/locales/format/date.json'
 import en from '@/locales/en.json'
 import vi from '@/locales/vi.json'
+import zh from '@/locales/zh.json'
 
 Vue.use(VueI18n)
 
@@ -11,7 +12,7 @@ const i18n = new VueI18n({
   fallbackLocale: 'en',
   dateTimeFormats: date,
   messages: {
-    en: en, vi: vi
+    en: en, vi: vi, zh: zh
   }
 })
 

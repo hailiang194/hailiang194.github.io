@@ -18,7 +18,7 @@ export default [
         description: "ja_desc"
     },
     {
-        lang: "汉语（普通话）",
+        lang: "漢語（普通話）",
         level: 2,
         max: 6,
         description: "zh_desc"

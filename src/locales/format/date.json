@@ -10,5 +10,11 @@
         "year": "numeric",
         "month": "long"
       }
+    },
+    "zh": {
+      "exp": {
+        "year": "numeric",
+        "month": "long"
+      }
     }
   }
