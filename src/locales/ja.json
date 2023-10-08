@@ -1,0 +1,42 @@
+{
+    "name": "日本語",
+    "nav": {
+        "home": "ホームページ",
+        "resume": "レジュメ",
+        "portfolio": "代表作",
+        "contact": "連絡"
+    },
+    "resume": {
+        "name": "ルォン・テー・ハイ",
+        "title": "フルスタックデベロッパー、 ゲームデベロッパー",
+        "address": "ベトナム、ハノイ",
+        "used_tech": "使ったテック",
+        "work_exp": "経験",
+        "present": "今",
+        "edu": "学問",
+        "dev_title": "デバロッパー",
+        "intern_title": "インターン",
+        "university": "FPT大学",
+        "major": "専門: ソフトウェアエンジニア",
+        "spoken_lang": "外国語",
+        "vi_desc": "ネイティブ",
+        "en_desc": "中級",
+        "ja_desc": "初級",
+        "zh_desc": "初級",
+        "glis_game_des_1": "OpenGLとEmscriptenに訓練されましまた。",
+        "glis_game_des_2": "vbEngine「Glis Gamesのゲームエンジン」を維持しまた。",
+        "glis_game_des_3": "会社のゲームを作成して、維持しまた。",
+        "glis_game_des_4": "front-end　developerに参加してまた。",
+        "glis_game_des_5": "ゲームと組み込みソフトウェアのコミュニケーションのモジュールに書きました。",
+        "an_lab_des_1": "OpenCVやTensorflowやPyTorchなど訓練されました。"
+    },
+    "portfolio": {
+        "have_done": "作ったプロジェクト",
+        "view_source": "ソースコードを取得する",
+        "view_github": "GitHubで取得する"
+    },
+    "contact": {
+        "title": "連絡",
+        "message": "ここで私に連絡してください。"
+    }
+}

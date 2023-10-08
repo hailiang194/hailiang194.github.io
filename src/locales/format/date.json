@@ -16,5 +16,11 @@
         "year": "numeric",
         "month": "long"
       }
+    },
+    "ja-JP": {
+      "exp": {
+        "year": "numeric",
+        "month": "long"
+      }
     }
   }

@@ -4,6 +4,7 @@ import date from '@/locales/format/date.json'
 import en from '@/locales/en.json'
 import vi from '@/locales/vi.json'
 import zh from '@/locales/zh.json'
+import jp from '@/locales/ja.json'
 
 Vue.use(VueI18n)
 
@@ -12,7 +13,7 @@ const i18n = new VueI18n({
   fallbackLocale: 'en',
   dateTimeFormats: date,
   messages: {
-    en: en, vi: vi, zh: zh
+    en: en, vi: vi, zh: zh, "ja-JP": jp
   }
 })
 
