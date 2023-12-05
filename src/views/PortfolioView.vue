@@ -79,7 +79,7 @@ export default {
     },
     mounted() {
         this.repos = []
-        axios.get(`https://api.github.com/users/hailiang194/repos?per_page=10&type=all`).then(response => {
+        axios.get(`https://api.github.com/users/hailiang194/repos?per_page=10&type=all&sort=pushed&direction=desc`).then(response => {
             this.repos = response.data
         }).catch((error) => {
             console.log(error)
