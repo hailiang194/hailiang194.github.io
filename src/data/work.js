@@ -6,7 +6,7 @@ export default {
             "icon": "fas fa-gamepad",
             "time": {
                 "start": new Date("2022-02-01"),
-                "end": new Date()
+                "end": new Date("2024-01-01")
             },
             "works": [
                 "glis_game_des_1",

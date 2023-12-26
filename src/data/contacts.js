@@ -1,5 +1,3 @@
-import WeixinQr from '@/assets/weixin_qr.png'
-
 export default [
     {
         icon: "fa-brands fa-skype",
@@ -24,11 +22,5 @@ export default [
         tooltip: "Github",
         image: null,
         link: "https://github.com/hailiang194"
-    },
-    {
-        icon: "fa-brands fa-weixin",
-        tooltip: "微信",
-        image: WeixinQr,
-        link: null
     }
 ]
