@@ -91,7 +91,7 @@
       <div class="has-text-centered">
         <p class="is-size-4 has-text-light">{{ $t('resume.university') }}</p>
         <p class="is-size-5 has-text-light">2018 - 2023</p>
-        <p class="is-size-5 has-text-light">GPA: 7.06</p>
+        <!-- <p class="is-size-5 has-text-light">GPA: 7.06</p> -->
         <p class="is-size-5 has-text-light">{{ $t('resume.major') }}</p>
 
       </div>
