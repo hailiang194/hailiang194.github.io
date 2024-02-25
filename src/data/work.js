@@ -1,4 +1,18 @@
 export default {
+    "2024": [
+        {
+            "company": "FPT Software",
+            "title": "dev_title",
+            "icon": "fas fa-suitcase-medical",
+            "time": {
+                "start": new Date("2024-02-01"),
+                "end": new Date()
+            },
+            "works": [
+                "fpt_software_des_1"
+            ]
+        }
+    ],
     "2022": [
         {
             "company": "Glis Games",

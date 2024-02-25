@@ -9,7 +9,7 @@
     "resume": {
         "name": "Hai Luong(Kai)",
         "title": "C/C++ Developer",
-        "address": "Vietnam, Ho Chi Minh City",
+        "address": "Ho Chi Minh City, Vietnam",
         "used_tech": "Technologies used",
         "work_exp": "Working experiences",
         "present": "Present",
@@ -23,6 +23,7 @@
         "en_desc": "Intermediate level",
         "ja_desc": "Basic introduction",
         "zh_desc": "Basic introduction",
+        "fpt_software_des_1": "Under probation at FPT Software - Healthcase (GHC)",
         "glis_game_des_1": "Trained to use OpenGL, Emscripten",
         "glis_game_des_2": "Maintaining vbEngine - Glis Games' in-house game engine",
         "glis_game_des_3": "Creating and maintaining the company's games",
