@@ -23,7 +23,7 @@
         "en_desc": "中級",
         "ja_desc": "初級",
         "zh_desc": "初級",
-        "fpt_software_des_1": "FPT Software - Healthcase (GHC)で保護観察中です。",
+        "fpt_software_des_1": "MFC(Microsoft Foundation Class)を使うWindowsアプリを維持します。",
         "glis_game_des_1": "OpenGLとEmscriptenに訓練されましまた。",
         "glis_game_des_2": "vbEngine「Glis Gamesのゲームエンジン」を維持しまた。",
         "glis_game_des_3": "会社のゲームを作成して、維持しまた。",
@@ -38,6 +38,6 @@
     },
     "contact": {
         "title": "連絡",
-        "message": "ここで私に連絡してください。"
+        "message": "連絡先情報は以下の通りです。"
     }
 }
