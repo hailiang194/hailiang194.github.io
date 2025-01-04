@@ -28,7 +28,7 @@
               <div>
                 <!-- <a href="./../assets/CV_Software-Engineering_Luong-The-Hai.pdf">Download CV(English)</a> -->
                 <b-button class="my-3" tag="a" href="/CV_Software-Engineering_Luong-The-Hai.pdf" target="_blank" type="is-info">
-                  Download CV(English)
+                  Download Resume(English)
                 </b-button>
               </div>
             </div>
