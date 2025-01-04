@@ -13,6 +13,6 @@ export default [
     },
     {
         "name": "ルオン・テー・ハイ「うみくん」",
-        "title": "C/C++デベロッパー"
+        "title": "C/C++開発者"
     }
 ]

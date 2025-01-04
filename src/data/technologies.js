@@ -16,6 +16,7 @@ import opencvIcon from '@iconify/icons-logos/opencv';
 import webassemblyIcon from '@iconify/icons-logos/webassembly';
 import linuxTux from '@iconify/icons-logos/linux-tux';
 import dockerIcon from '@iconify/icons-devicon/docker';
+import qtIcon from '@iconify/icons-vscode-icons/file-type-qml'
 
 export default [
     {
@@ -38,6 +39,11 @@ export default [
         name: "OpenGL",
         icon: openglIcon
     },
+    {
+        name: "Qt/QML",
+        icon: qtIcon
+    }
+    ,
     {
         name: "C#",
         icon: fileTypeCsharp2

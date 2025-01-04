@@ -9,7 +9,9 @@ export default {
                 "end": new Date()
             },
             "works": [
-                "fpt_software_des_1"
+                "fpt_software_des_1",
+                "fpt_software_des_2",
+                "fpt_software_des_3",
             ]
         }
     ],
