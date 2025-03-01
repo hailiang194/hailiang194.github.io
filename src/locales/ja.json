@@ -27,7 +27,7 @@
         "fpt_software_des_2": "libcurlでRestAPIクライアント部品を維持しまた。",
         "fpt_software_des_3" : "Pythonでテストスクリプトをを開発しまた。",
         "glis_game_des_1": "OpenGLとEmscriptenに訓練されましまた。",
-        "glis_game_des_2": "vbEngine「Glis Gamesのゲームエンジン」を維持しまた。",
+        "glis_game_des_2": "本会社のゲームエンジンを維持しまた。",
         "glis_game_des_3": "会社のゲームを作成して、維持しまた。",
         "glis_game_des_4": "front-end　developerに参加してまた。",
         "glis_game_des_5": "ゲームと組み込みソフトウェアのコミュニケーションのモジュールを開発しまた。",
@@ -40,6 +40,6 @@
     },
     "contact": {
         "title": "連絡",
-        "message": "連絡先情報は以下の通りです。"
+        "message": "以下の連絡先情報で連絡してください。"
     }
 }

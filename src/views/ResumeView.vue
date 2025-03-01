@@ -26,8 +26,8 @@
               
 
               <div>
-                <!-- <a href="./../assets/CV_Software-Engineering_Luong-The-Hai.pdf">Download CV(English)</a> -->
-                <b-button class="my-3" tag="a" href="/CV_Software-Engineering_Luong-The-Hai.pdf" target="_blank" type="is-info">
+                
+                <b-button class="my-3" tag="a" href="/Resume-Software-Engineer-Luong-The-Hai.pdf" target="_blank" type="is-info">
                   Download Resume(English)
                 </b-button>
               </div>
@@ -91,7 +91,6 @@
       <div class="has-text-centered">
         <p class="is-size-4 has-text-light">{{ $t('resume.university') }}</p>
         <p class="is-size-5 has-text-light">2018 - 2023</p>
-        <!-- <p class="is-size-5 has-text-light">GPA: 7.06</p> -->
         <p class="is-size-5 has-text-light">{{ $t('resume.major') }}</p>
 
       </div>
