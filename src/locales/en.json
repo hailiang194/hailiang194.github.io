@@ -23,6 +23,7 @@
         "en_desc": "Intermediate level",
         "ja_desc": "Basic introduction",
         "zh_desc": "Basic introduction",
+        "gsi_software_des_1": "Ready for Onboarding",
         "fpt_software_des_1": "Implemented GUI components for medical devices using Qt Framework and QML",
         "fpt_software_des_2": "Created RestAPI client components using libcurl",
         "fpt_software_des_3" :"Created script for testing using Python",

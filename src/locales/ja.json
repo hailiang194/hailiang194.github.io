@@ -23,6 +23,7 @@
         "en_desc": "中級",
         "ja_desc": "初級",
         "zh_desc": "初級",
+        "gsi_software_des_1": "入社手続きの準備中です。",
         "fpt_software_des_1": "QtフレームワークやQMLで医療機器のGUI部品を実行しまた。",
         "fpt_software_des_2": "libcurlでRestAPIクライアント部品を維持しまた。",
         "fpt_software_des_3" : "Pythonでテストスクリプトをを開発しまた。",

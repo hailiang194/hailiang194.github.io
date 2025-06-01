@@ -1,4 +1,18 @@
 export default {
+        "2025": [
+        {
+            "company": "GSI Software",
+            "title": "dev_title",
+            "icon": "fas fa-building",
+            "time": {
+                "start": new Date("2025-06-01"),
+                "end": new Date()
+            },
+            "works": [
+                "gsi_software_des_1"
+            ]
+        }
+    ],
     "2024": [
         {
             "company": "FPT Software",
@@ -6,7 +20,7 @@ export default {
             "icon": "fas fa-suitcase-medical",
             "time": {
                 "start": new Date("2024-02-01"),
-                "end": new Date()
+                "end": new Date("2025-06-01")
             },
             "works": [
                 "fpt_software_des_1",

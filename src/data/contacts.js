@@ -1,10 +1,7 @@
+import LineQr from "@/assets/line_qr.jpg"
+import WhatsAppQr from "@/assets/whatsapp_qr.jpg"
+
 export default [
-    {
-        icon: "fa-brands fa-skype",
-        tooltip: "Skype",
-        image: null,
-        link: "skype:live:.cid.e14b81e032f041ba?chat"
-    },
     {
         icon: "envelope",
         tooltip: "Email",
@@ -22,5 +19,23 @@ export default [
         tooltip: "Github",
         image: null,
         link: "https://github.com/hailiang194"
+    },
+    {
+        icon: "fa-brands fa-discord",
+        tooltip: "Discord",
+        image: null,
+        link: "https://discord.gg/2f6EjCC6"
+    },
+    {
+        icon: "fa-brands fa-line",
+        tooltip: "Line",
+        image: LineQr,
+        link: null
+    },
+    {
+        icon: "fa-brands fa-square-whatsapp",
+        tooltip: "WhatsApp",
+        image: WhatsAppQr,
+        link: null
     }
 ]
