@@ -1,0 +1,46 @@
+{
+  "name": "繁體中文",
+  "nav": {
+      "home": "首頁",
+      "resume": "簡歷",
+      "portfolio": "組合",
+      "contact": "聯係"
+  },
+  "resume": {
+      "name": "梁世海",
+      "title": "C/C++工程師",
+      "address": "越南，胡志明市",
+      "used_tech": "我使用了的",
+      "work_exp": "工作經歷",
+      "present": "現在",
+      "edu": "教育背景",
+      "dev_title": "開發者",
+      "intern_title": "實習生",
+      "university": "FPT大學",
+      "major": "專業: Software Engineering",
+      "spoken_lang": "我可以説的語言",
+      "vi_desc": "本地語言",
+      "en_desc": "中級水平",
+      "ja_desc": "初級水平",
+      "zh_desc": "初級水平",
+      "gsi_software_des_1": "準備入職後的適職期",
+      "fpt_software_des_1": "使用Qt開發框架,QML開發醫療器械的GUI配件",
+      "fpt_software_des_2": "使用libcurl開發RestAPI客户端配件",
+      "fpt_software_des_3" : "使用Python開發測試腳本",
+      "glis_game_des_1": "被訓練OpenGL, Emscripten",
+      "glis_game_des_2": "保持vbEngine - 公司的遊戲引擎",
+      "glis_game_des_3": "創造，還保持公司的遊戲",
+      "glis_game_des_4": "是webgame的front-end developer",
+      "glis_game_des_5": "創造，還保嵌入式系統的模塊",
+      "an_lab_des_1": "被訓練OpenCV, Tensorflow, PyTorch"
+  },
+  "portfolio": {
+      "have_done": "我做過的",
+      "view_source": "查看源代碼",
+      "view_github": "在GitHub查看更多"
+  },
+  "contact": {
+      "title": "聯係",
+      "message": "聯係我"
+  }
+}
