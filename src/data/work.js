@@ -9,7 +9,11 @@ export default {
                 "end": new Date()
             },
             "works": [
-                "gsi_software_des_1"
+                "gsi_software_des_1",
+                "gsi_software_des_2",
+                "gsi_software_des_3",
+                "gsi_software_des_4",
+                "gsi_software_des_5"
             ]
         }
     ],
@@ -26,6 +30,7 @@ export default {
                 "fpt_software_des_1",
                 "fpt_software_des_2",
                 "fpt_software_des_3",
+                "fpt_software_des_4",
             ]
         }
     ],
