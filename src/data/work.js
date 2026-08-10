@@ -6,7 +6,7 @@ export default {
             "icon": "fas fa-building",
             "time": {
                 "start": new Date("2025-06-01"),
-                "end": new Date()
+                "end": new Date("2026-08-31")
             },
             "works": [
                 "gsi_software_des_1",
